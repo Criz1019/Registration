@@ -1,0 +1,48 @@
+/* Header */
+
+.top-nav{
+  width: 100%;
+
+}
+#ComteqLogo {
+  height: 50px;
+	width: 70%;
+
+}
+#comteqlogo{
+	height: 100px;
+	width: 50px;
+}
+
+.nav_menu {
+    float: right;
+    background: #EDEDED;
+    border-bottom: 1px solid #D9DEE4;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative
+}
+
+/* Home page */
+.cover_img{
+  width: 100%;
+}
+
+.medal{
+  width: 100%;
+}
+
+/* Footer */
+#footer{
+  flex-direction: column-reverse;
+}
+
+
+b-footer {
+    background:#EDEDED;
+		border-style: solid;
+		border-color: rgb(27, 86, 243);
+ 		border-width: 1px 0px 1px 0px;
+    padding: 15px 20px;
+    display: block
+}
