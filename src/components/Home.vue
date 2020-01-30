@@ -7,7 +7,6 @@
           <b-button variant="primary" href="#">More Info</b-button>
         </b-jumbotron>
       </div> -->
-      
       <Footer />
     </div>
 </template>
