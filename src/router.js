@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import App from "./App.vue";
 import Admin from "./views/Admin.vue";
+import HomePage from "./views/Home.vue";
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Home from "./components/Home.vue";
@@ -29,11 +30,19 @@ export default new Router({
       },
     },
     {
+      path: "/home",
+      name: "Home",
+      component: Home,
+      beforeEnter(to, from, next){
+        setTimeout(() => next(), 500);
+      },
+    },
+    {
       path: "/register",
       name: "Register",
       component: Register,
       beforeEnter(to, from, next){
-        setTimeout(() => next(), 2000);
+        setTimeout(() => next(), 100);
       },
     },
     {
@@ -41,7 +50,7 @@ export default new Router({
       name: "Course",
       component: Course,
       beforeEnter(to, from, next){
-        setTimeout(() => next(), 2000);
+        setTimeout(() => next(), 100);
       },
     },
     {
@@ -49,7 +58,7 @@ export default new Router({
       name: "Requirment",
       component: Requirement,
       beforeEnter(to, from, next){
-        setTimeout(() => next(), 2000);
+        setTimeout(() => next(), 100);
       },
     },
 
@@ -58,7 +67,7 @@ export default new Router({
       name: "CollegeEnrollment",
       component: CollegeEnrollment,
       beforeEnter(to, from, next){
-        setTimeout(() => next(), 2000);
+        setTimeout(() => next(), 100);
       },
     },
     {
@@ -66,7 +75,7 @@ export default new Router({
       name: "SHEnrollment",
       component: SHEnrollment,
       beforeEnter(to, from, next){
-        setTimeout(() => next(), 2000);
+        setTimeout(() => next(), 100);
       },
     },
   ]

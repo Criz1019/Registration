@@ -1,5 +1,9 @@
 /* Header */
 
+.nav{
+  box-shadow: 0 5px 10px #8F8F8F;
+}
+
 .top-nav{
   width: 100%;
 

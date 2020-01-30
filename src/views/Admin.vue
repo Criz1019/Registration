@@ -1,10 +1,8 @@
 <template>
-  <div class="container body">
     <div class="main_container">
       <Home />
       <Register />
     </div>
-  </div>
 </template>
 
 <script>
