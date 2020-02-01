@@ -1,30 +1,40 @@
 <template>
-  <div class="container">
-    <b-navbar class="nav" toggleable="lg" type="dark" variant="primary">
-      <b-navbar-brand href="#">COMTEQ</b-navbar-brand>
+  <div>
+    <b-navbar class="nav" toggleable="lg" type="dark" >
+      <!-- <b-navbar-brand href="#">COMTEQ</b-navbar-brand> -->
+      <!-- <div class="logo_container">
+        <b-img src="../../public/logo.jfif" fluid alt="Responsive image"></b-img>
+      </div> -->
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-          <b-nav-item href="#" to="/Home">Home</b-nav-item>
-          <b-nav-item href="#" to="/Course">Courses</b-nav-item>
-          <b-nav-item href="#" to="/Requirement">Admission Requirements</b-nav-item>
-          <b-nav-item href="#" to="/Register">Register</b-nav-item>
-          <b-nav-item href="#" to="/">Login</b-nav-item>
+        <b-navbar-nav class="navbar_nav">
+          <b-nav-item class="nav_item" href="#" to="/Home">Home</b-nav-item>
+
+          <b-nav-item class="nav_item dropdown" href="#">
+            Programs
+            <div class="dropdown-content">
+              <router-link to="/ProgramCollege"><a href="#" >College</a></router-link>
+              <b-dropdown-divider></b-dropdown-divider>
+              <router-link to="/ProgramSHS"><a href="#" >Senior High</a></router-link>
+            </div>
+          </b-nav-item>
+
+          <b-nav-item class="nav_item dropdown" href="#" >
+            Admissions
+            <div class="dropdown-content">
+              <router-link to="/AdmissionCollege"><a href="#" >College</a></router-link>
+              <b-dropdown-divider></b-dropdown-divider>
+              <router-link to="/AdmissionSHS"><a href="#" >Senior High</a></router-link>
+            </div>
+          </b-nav-item>
+
+          <b-nav-item class="nav_item" href="#" to="/Register">Register</b-nav-item>
+          <b-nav-item class="nav_item" href="#" to="/">Login</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item-dropdown right>
-            <!-- Using 'button-content' slot -->
-            <template v-slot:button-content>
-              User
-            </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-          </b-nav-item-dropdown>
-        </b-navbar-nav>
         <!-- end of class ml-auto -->
       </b-collapse>
     </b-navbar>

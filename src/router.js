@@ -6,6 +6,10 @@ import HomePage from "./views/Home.vue";
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Home from "./components/Home.vue";
+import AdmissionCollege from "./components/AdmissionCollege.vue";
+import AdmissionSHS from "./components/AdmissionSHS.vue";
+import ProgramCollege from "./components/ProgramCollege.vue";
+import ProgramSHS from "./components/ProgramSHS.vue";
 import Register from "./components/Register.vue";
 import Course from "./components/Course.vue";
 import Requirement from "./components/Requirement.vue";
@@ -74,6 +78,38 @@ export default new Router({
       path: "/shEnrollment",
       name: "SHEnrollment",
       component: SHEnrollment,
+      beforeEnter(to, from, next){
+        setTimeout(() => next(), 100);
+      },
+    },
+    {
+      path: "/AdmissionCollege",
+      name: "AdmissionCollege",
+      component: AdmissionCollege,
+      beforeEnter(to, from, next){
+        setTimeout(() => next(), 100);
+      },
+    },
+    {
+      path: "/AdmissionSHS",
+      name: "AdmissionSHS",
+      component: AdmissionSHS,
+      beforeEnter(to, from, next){
+        setTimeout(() => next(), 100);
+      },
+    },
+    {
+      path: "/ProgramSHS",
+      name: "ProgramSHS",
+      component: ProgramSHS,
+      beforeEnter(to, from, next){
+        setTimeout(() => next(), 100);
+      },
+    },
+    {
+      path: "/ProgramCollege",
+      name: "ProgramCollege",
+      component: ProgramCollege,
       beforeEnter(to, from, next){
         setTimeout(() => next(), 100);
       },
