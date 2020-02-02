@@ -36,6 +36,11 @@
   <!-- 1st form -->
       <div>
       <b-card bg-variant="light">
+
+        <b-card-text>
+          PERSONAL INFORMATION
+        </b-card-text>
+
           <b-form-group
             label-cols-sm="3"
             label="Family Name:"
@@ -63,37 +68,11 @@
             <b-form-input id="mname"></b-form-input>
           </b-form-group>
 
-          <b-dropdown text="Gender" variant="outline-default" class="m-10">
-            <b-dropdown-item>Male</b-dropdown-item>
-            <b-dropdown-item>Female</b-dropdown-item>
-          </b-dropdown>
-
-          <b-form-group>
-           <b-form-radio-group
-             v-model="selected"
-             :options="options"
-             name="radio-inline"
-           ></b-form-radio-group>
-         </b-form-group>
-
-            </b-card>
-          </div>
-
-<!-- 2nd form -->
-        <div>
-          <b-card bg-variant="light">
-
-            <b-label>Student Status:</b-label>
+            <!-- <b-label>Student Status:</b-label>
             <b-dropdown border variant="outline-default">
               <b-dropdown-item>Old</b-dropdown-item>
               <b-dropdown-item>New</b-dropdown-item>
-            </b-dropdown>
-
-            <b-label>Academic Status:</b-label>
-            <b-dropdown border variant="outline-default">
-              <b-dropdown-item>Regular</b-dropdown-item>
-              <b-dropdown-item>Eregular</b-dropdown-item>
-            </b-dropdown>
+            </b-dropdown> -->
 
               <b-form-group
                 label-cols-sm="3"
@@ -148,10 +127,21 @@
                 >
                 <b-form-input id="email"></b-form-input>
               </b-form-group>
+
+              <b-dropdown text="Gender" variant="outline-default" class="m-10">
+                <b-dropdown-item>Male</b-dropdown-item>
+                <b-dropdown-item>Female</b-dropdown-item>
+              </b-dropdown>
+
+              <b-form-group label="Level">
+                <b-form-radio v-model="selected" name="some-radios" value="A">College</b-form-radio>
+                <b-form-radio v-model="selected" name="some-radios" value="B">Senior High</b-form-radio>
+              </b-form-group>
+
           </b-card>
         </div>
 
-<!-- 3rd form -->
+<!-- 2nd form -->
         <div>
           <b-card bg-variant="light">
 

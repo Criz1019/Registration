@@ -60,29 +60,35 @@
           <!-- start of cards -->
           <div class="vertical_cards_container">
             <b-card-group deck>
-              <b-card title="" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card title="Basta Computer Comteq!" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
                 <b-card-text>
-                  <strong>Listed by CYBERMETRICS Lab as one of the 2016 top colleges in the Philippines</strong>
-                    <p>(The ONLY ONE listed in the Olongapo City and Subic Freeport area.)</p>
+                  <strong>Be one of the:</strong>
+                  <ul>
+                    <li>Web Developer</li>
+                    <li>Graphic Desiner</li>
+                    <li>Photographer</li>
+                    <li>Programmer</li>
+                    <li>Web Designer</li>
+                    <li>Film Maker</li>
+                  </ul>
                 </b-card-text>
                 <template v-slot:footer>
                   <small class="text-muted">Last updated 3 mins ago</small>
                 </template>
               </b-card>
 
-              <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card title="ENROLL NOW!" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
                 <b-card-text>
-                  This card has supporting text below as a natural lead-in to additional content.
+                  <strong>We are the New Creator</strong><br>
+                  <strong>Develope and improve your talent.</strong><br>
+                  <strong>Enhance and perform your hidden skills.</strong>
                 </b-card-text>
-                <template v-slot:footer>
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </template>
               </b-card>
 
-              <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card title="CPA's ba ang nais?" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
                 <b-card-text>
-                  This is a wider card with supporting text below as a natural lead-in to additional content.
-                  This card has even longer content than the first to show that equal height action.
+                  <strong>This is your better Choice!</strong><br>
+                  <p>CPAs with CORPORATE ACCOUNTING work experince and familiar with COMPUTER-BASED financial systems will be teaching Accounting Subjects.</p>
                 </b-card-text>
                 <template v-slot:footer>
                   <small class="text-muted">Last updated 3 mins ago</small>
@@ -138,7 +144,7 @@
                     <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                       <b-card-body>
                         <b-card-text>
-                          Please input the condition of how to avail the Atletics scholarship of the school.
+                          Please input the condition of how to avail the Atletics scholarship of the school. The steps and procedure hon how to became a  varcity player.
                         </b-card-text>
                       </b-card-body>
                     </b-collapse>
@@ -157,9 +163,7 @@
                         <b-card-text>
                           <ul>
                             <strong>
-                             <li>Full cash your tuition and get the (11,999)</li>
-                             <li>With High Honors: 95-97</li>
-                             <li>With Honors: 90-94</li>
+                             Other discounts offered.
                            </strong>
                          </ul>
                         </b-card-text>
