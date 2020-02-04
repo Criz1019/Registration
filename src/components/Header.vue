@@ -32,6 +32,7 @@
 
           <b-nav-item class="nav_item" href="#" to="/Register">Register</b-nav-item>
           <b-nav-item class="nav_item" href="#" to="/">Login</b-nav-item>
+          <b-nav-item class="nav_item" href="#" to="/About">About</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

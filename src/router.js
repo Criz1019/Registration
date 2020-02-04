@@ -15,6 +15,7 @@ import Course from "./components/Course.vue";
 import Requirement from "./components/Requirement.vue";
 import CollegeEnrollment from "./components/CollegeEnrollment.vue";
 import SHEnrollment from "./components/SHEnrollment.vue";
+import About from "./components/About.vue";
 Vue.use(Router);
 
 /*NOTE: the meta inside each route is useless for now.
@@ -110,6 +111,14 @@ export default new Router({
       path: "/ProgramCollege",
       name: "ProgramCollege",
       component: ProgramCollege,
+      beforeEnter(to, from, next){
+        setTimeout(() => next(), 100);
+      },
+    },
+    {
+      path: "/About",
+      name: "About",
+      component: About,
       beforeEnter(to, from, next){
         setTimeout(() => next(), 100);
       },

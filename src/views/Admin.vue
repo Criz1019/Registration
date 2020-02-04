@@ -12,6 +12,7 @@
     import Requirement from "../components/Requirement.vue";
     import CollegeEnrollment from "../components/CollegeEnrollment.vue";
     import SHEnrollment from "../components/SHEnrollment.vue";
+    import About from "../components/About.vue";
     import Axios from "axios";
     const baseUrl = "http://localhost/api/v1/";
     export default {
