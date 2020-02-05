@@ -8,47 +8,65 @@
         text-variant="white"
         title="Image Overlay"
         sub-title="Subtitle"
-      >
-        <b-card-text>
-          <h2>Contact Us!</h2>
-          <h3>1200 4th floor Savers Appliance, Rizal Ave East Tapinac, Olongapo City, Zambales</h3>
-          <h4>Tel: +63(47)252-3335/www.comteq.edu.ph</h4>
-        </b-card-text>
-      </b-card>
+          >
+            <b-card-text>
+              <h2>Contact Us!</h2>
+              <h3>1200 4th floor Savers Appliance, Rizal Ave East Tapinac, Olongapo City, Zambales</h3>
+              <h4>Tel: +63(47)252-3335/www.comteq.edu.ph</h4>
+            </b-card-text>
+          </b-card>
 
-      <!-- b-card for icons -->
-        <div>
-        <b-card-group deck>
-        <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
-          <b-card-text>
-            This is a wider card with supporting text below as a natural lead-in to additional content.
-            This content is a little bit longer.
-          </b-card-text>
-          <template v-slot:footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
-        </b-card>
+              <!-- b-card for icons -->
+              <div>
+              <b-card-group deck>
+              <b-card>
+                <img src="../assets/images/vission_mission.png" img-alt="Image" class="medal" img-top />
+                  <b-link to="/VissionMission">
+                    Mission And Vission
+                  </b-link>
+              </b-card>
 
-        <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
-          <b-card-text>
-            This card has supporting text below as a natural lead-in to additional content.
-          </b-card-text>
-          <template v-slot:footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
-        </b-card>
+              <b-card>
+                <img src="../assets/images/achievement.png" img-alt="Image" class="medal" img-top />
+                <b-card-text>
+                  <b-nav-item href="#1">Achievement</b-nav-item>
+                </b-card-text>
+              </b-card>
 
-        <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
-          <b-card-text>
-            This is a wider card with supporting text below as a natural lead-in to additional content.
-            This card has even longer content than the first to show that equal height action.
-          </b-card-text>
-          <template v-slot:footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
-        </b-card>
-        </b-card-group>
-        </div>
+              <b-card>
+                <img src="../assets/images/event.png" img-alt="Image" class="medal" img-top />
+                <b-card-text>
+                  <b-nav-item href="#1">Event</b-nav-item>
+                </b-card-text>
+              </b-card>
+            </b-card-group>
+          </div>
+
+          <b-footer class="footer">
+
+            <div>
+              <h3>Developers!</h3>
+                <p>Ms. Hasmin Cuevas - Project Manager</p>
+                <p>Apid, Cristine Barrios</p>
+                <p>Mariano, Renz Austin Delos Reyes</p>
+                <p>Marty, John Christopher Lulu</p>
+            </div>
+
+            <div>
+              <h3>Contact Us!</h3>
+                <b-link href="https://www.facebook.com/comteqsbfz/?epa=SEARCH_BOX">
+                  <img src="../assets/images/facebook.png" img-alt="Image" class="facebook_icon" img-top />
+                </b-link>
+                <p>1200 4th floor Savers Appliance, Rizal Ave</p>
+                <p>East Tapinac, Olongapo City, Zambales</P>
+                <p>Tel: +63(47)252-3335/www.comteq.edu.ph</p>
+            </div>
+              <p>
+                Copyright &copy
+                {{ getFullYear }}
+                COMTEQ Computer & Business College.
+              </p>
+          </b-footer>
 
       </div>
 </template>

@@ -180,3 +180,8 @@ h3,h4,h5,h6{
   display: block;
   background-color: rgb(27, 86, 243);
 }
+
+.facebook_icon{
+  width: 30px;
+  height: 30px;
+}
