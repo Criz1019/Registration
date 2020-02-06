@@ -14,6 +14,8 @@
     import SHEnrollment from "../components/SHEnrollment.vue";
     import About from "../components/About.vue";
     import VissionMission from "../components/VissionMission.vue";
+    import Achievements from "../components/Achievements.vue";
+    import Events from "../components/Events.vue";
     import Axios from "axios";
     const baseUrl = "http://localhost/api/v1/";
     export default {

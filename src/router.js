@@ -17,6 +17,8 @@ import CollegeEnrollment from "./components/CollegeEnrollment.vue";
 import SHEnrollment from "./components/SHEnrollment.vue";
 import About from "./components/About.vue";
 import VissionMission from "./components/VissionMission.vue";
+import Achievements from "./components/Achievements.vue";
+import Events from "./components/Events.vue";
 Vue.use(Router);
 
 /*NOTE: the meta inside each route is useless for now.
@@ -128,6 +130,22 @@ export default new Router({
       path: "/VissionMission",
       name: "VissionMission",
       component: VissionMission,
+      beforeEnter(to, from, next){
+        setTimeout(() => next(), 100);
+      },
+    },
+    {
+      path: "/Achievements",
+      name: "Achievements",
+      component: Achievements,
+      beforeEnter(to, from, next){
+        setTimeout(() => next(), 100);
+      },
+    },
+    {
+      path: "/Events",
+      name: "Events",
+      component: Events,
       beforeEnter(to, from, next){
         setTimeout(() => next(), 100);
       },

@@ -185,3 +185,18 @@ h3,h4,h5,h6{
   width: 30px;
   height: 30px;
 }
+
+
+/* vission and mission */
+.vm_title{
+  padding: 0px 30px;
+}
+
+.vm_body{
+  padding: 10px 70px;
+  margin-bottom: 10px;
+}
+
+.vm_card{
+  margin-bottom: 20px;
+}

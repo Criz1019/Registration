@@ -29,45 +29,22 @@
               <b-card>
                 <img src="../assets/images/achievement.png" img-alt="Image" class="medal" img-top />
                 <b-card-text>
-                  <b-nav-item href="#1">Achievement</b-nav-item>
+                  <b-link to="/Achievements">
+                    School Achievements
+                  </b-link>
                 </b-card-text>
               </b-card>
 
               <b-card>
                 <img src="../assets/images/event.png" img-alt="Image" class="medal" img-top />
-                <b-card-text>
-                  <b-nav-item href="#1">Event</b-nav-item>
-                </b-card-text>
+                <b-link to="/Events">
+                  School Events
+                </b-link>
               </b-card>
             </b-card-group>
           </div>
 
-          <b-footer class="footer">
-
-            <div>
-              <h3>Developers!</h3>
-                <p>Ms. Hasmin Cuevas - Project Manager</p>
-                <p>Apid, Cristine Barrios</p>
-                <p>Mariano, Renz Austin Delos Reyes</p>
-                <p>Marty, John Christopher Lulu</p>
-            </div>
-
-            <div>
-              <h3>Contact Us!</h3>
-                <b-link href="https://www.facebook.com/comteqsbfz/?epa=SEARCH_BOX">
-                  <img src="../assets/images/facebook.png" img-alt="Image" class="facebook_icon" img-top />
-                </b-link>
-                <p>1200 4th floor Savers Appliance, Rizal Ave</p>
-                <p>East Tapinac, Olongapo City, Zambales</P>
-                <p>Tel: +63(47)252-3335/www.comteq.edu.ph</p>
-            </div>
-              <p>
-                Copyright &copy
-                {{ getFullYear }}
-                COMTEQ Computer & Business College.
-              </p>
-          </b-footer>
-
+        <Footer />
       </div>
 </template>
 
