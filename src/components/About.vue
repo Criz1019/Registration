@@ -9,11 +9,7 @@
         title="Image Overlay"
         sub-title="Subtitle"
           >
-            <b-card-text>
-              <h2>Contact Us!</h2>
-              <h3>1200 4th floor Savers Appliance, Rizal Ave East Tapinac, Olongapo City, Zambales</h3>
-              <h4>Tel: +63(47)252-3335/www.comteq.edu.ph</h4>
-            </b-card-text>
+
           </b-card>
 
               <!-- b-card for icons -->

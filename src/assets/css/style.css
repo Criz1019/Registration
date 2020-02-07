@@ -200,3 +200,17 @@ h3,h4,h5,h6{
 .vm_card{
   margin-bottom: 20px;
 }
+
+/* Achievements */
+.carousel_body{
+  padding: 10px 70px;
+  margin-bottom: 10px;
+}
+
+
+/* Events */
+
+.gallery_cointainer{
+  padding:40px;
+  margin-top: 40px;
+}
