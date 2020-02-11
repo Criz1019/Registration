@@ -138,7 +138,7 @@
                     <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                       <b-card-body>
                         <b-card-text>
-                          Please input the condition of how to avail the Atletics scholarship of the school. The steps and procedure hon how to became a  varcity player.
+                          Add instruction on how to avail the Atletics scholarship of the school. The steps and procedure hon how to became a  varcity player.
                         </b-card-text>
                       </b-card-body>
                     </b-collapse>

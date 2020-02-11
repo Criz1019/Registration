@@ -9,8 +9,7 @@
         title="Image Overlay"
         sub-title="Subtitle"
           >
-
-          </b-card>
+        </b-card>
 
               <!-- b-card for icons -->
               <div>
