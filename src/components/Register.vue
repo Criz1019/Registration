@@ -1,8 +1,9 @@
 <template>
-  <div class="main_container">
-    <Header />
-
-      <div>
+  <div class="main">
+  <Header />
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-12">
          <b-card-group deck>
            <b-card>
              <b-card-text>
@@ -32,6 +33,8 @@
            </b-card>
          </b-card-group>
        </div>
+    </div>
+
 
   <!-- 1st form -->
       <div>
@@ -271,8 +274,9 @@
 
           </b-card>
         </div>
-      <Footer />
-    </div>
+      </div>
+    <Footer />
+  </div>
 </template>
 
 

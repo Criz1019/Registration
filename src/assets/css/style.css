@@ -172,13 +172,11 @@ h3,h4,h5,h6{
 
 
 /* Footer */
-.footer{
-  text-align: center;
+b-footer{
   padding: 20px 20px 10px 20px;
-  color: white;
   width: 100%;
   display: block;
-  background-color: rgb(27, 86, 243);
+  background: rgb(27, 86, 243);
 }
 
 .facebook_icon{
@@ -186,6 +184,22 @@ h3,h4,h5,h6{
   height: 30px;
 }
 
+.single-footer h3{
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-family:merienda;
+}
+
+.single-footer{
+  color: white;
+  display: inline-block;
+}
+
+.comteq_logo{
+  width: 150px;
+  height: 60px;
+  background-color:white;
+}
 
 /* vission and mission */
 .vm_title{
