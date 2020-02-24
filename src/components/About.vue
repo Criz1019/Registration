@@ -1,25 +1,26 @@
 <template>
   <div class="main_container">
     <Header />
-      <b-card
-        overlay
-        img-src="https://picsum.photos/900/250/?image=3"
-        img-alt="Card Image"
-        text-variant="white"
-        title="Image Overlay"
-        sub-title="Subtitle"
-          >
-        </b-card>
+      <div class="about_carousel">
+        <b-card
+          overlay
+          img-src="https://picsum.photos/900/250/?image=3"
+          img-alt="Card Image"
+          text-variant="white"
+          title="Image Overlay"
+          sub-title="Subtitle"
+            >
+          </b-card>
 
               <!-- b-card for icons -->
-              <div>
-              <b-card-group deck>
-              <b-card>
-                <img src="../assets/images/vission_mission.png" img-alt="Image" class="medal" img-top />
-                  <b-link to="/VissionMission">
-                    Mission And Vission
-                  </b-link>
-              </b-card>
+              <div class="about_cards">
+                <b-card-group deck>
+                  <b-card class="about_card">
+                    <img src="../assets/images/vission_mission.png" img-alt="Image" class="medal" img-top />
+                      <b-link to="/VissionMission">
+                        Mission And Vission
+                      </b-link>
+                  </b-card>
 
               <b-card>
                 <img src="../assets/images/achievement.png" img-alt="Image" class="medal" img-top />
@@ -38,9 +39,10 @@
               </b-card>
             </b-card-group>
           </div>
-
-        <Footer />
-      </div>
+          
+        </div>
+      <Footer />
+    </div>
 </template>
 
 <script>

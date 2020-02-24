@@ -2,8 +2,10 @@
   <div class="main_container">
     <Header />
 
-      <div>
+      <div class="container">
+        <div class="reg_cards">
          <b-card-group deck>
+
            <b-card>
              <b-card-text>
                1 CHOOSE
@@ -30,13 +32,24 @@
                SUBMIT your form
              </b-card-text>
            </b-card>
+
          </b-card-group>
+
        </div>
+     </div>
+
+  <!-- progress bar -->
+     <div class="container">
+         <ul class="progressbar">
+             <li class="active">login</li>
+             <li>choose interest</li>
+             <li>add friends</li>
+          </ul>
+        </div>
 
   <!-- 1st form -->
-      <div>
+      <div class="container">
       <b-card bg-variant="light">
-
         <b-card-text>
           PERSONAL INFORMATION
         </b-card-text>
@@ -142,8 +155,11 @@
         </div>
 
 <!-- 2nd form -->
-        <div>
+        <div class="container">
           <b-card bg-variant="light">
+            <b-card-text>
+                CONTACT
+            </b-card-text>
 
               <b-form-group
                 label-cols-sm="3"
@@ -225,9 +241,13 @@
                 >
                 <b-form-input id="Sprovince"></b-form-input>
               </b-form-group>
+            </b-card>
+            </div>
 
 
 <!-- Parents Information -->
+          <div class="container">
+            <b-card bg-variant="light">
 
             <b-card-text>
               PARENTS INFORMATION
