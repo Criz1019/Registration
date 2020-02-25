@@ -39,21 +39,21 @@
      </div>
 
   <!-- progress bar -->
-     <div class="container">
+      <div class="container">
          <ul class="progressbar">
-             <li class="active">login</li>
-             <li>choose interest</li>
-             <li>add friends</li>
+             <li class="active">Choose your Course</li>
+             <li>Personal Information</li>
+             <li>Contact</li>
+             <li>Parents Contact</li>
           </ul>
-        </div>
+      </div>
 
   <!-- 1st form -->
       <div class="container">
       <b-card bg-variant="light">
-        <b-card-text>
+        <b-card-text class="reg_text">
           PERSONAL INFORMATION
         </b-card-text>
-
           <b-form-group
             label-cols-sm="3"
             label="Family Name:"
@@ -141,23 +141,31 @@
                 <b-form-input id="email"></b-form-input>
               </b-form-group>
 
-              <b-dropdown text="Gender" variant="outline-default" class="m-10">
-                <b-dropdown-item>Male</b-dropdown-item>
-                <b-dropdown-item>Female</b-dropdown-item>
-              </b-dropdown>
+              <b-form-group>
+                <b-dropdown text="Gender" variant="outline-default" class="m-10">
+                  <b-dropdown-item>Male</b-dropdown-item>
+                  <b-dropdown-item>Female</b-dropdown-item>
+                </b-dropdown>
+              </b-form-group>
 
               <b-form-group label="Level">
                 <b-form-radio v-model="selected" name="some-radios" value="A">College</b-form-radio>
                 <b-form-radio v-model="selected" name="some-radios" value="B">Senior High</b-form-radio>
               </b-form-group>
 
+
+            <div class="reg_btn">
+              <b-button variant="danger">Cancel</b-button>
+              <b-button variant="primary">Next</b-button>
+            </div>
           </b-card>
         </div>
 
 <!-- 2nd form -->
         <div class="container">
           <b-card bg-variant="light">
-            <b-card-text>
+
+            <b-card-text class="reg_text">
                 CONTACT
             </b-card-text>
 
@@ -241,6 +249,12 @@
                 >
                 <b-form-input id="Sprovince"></b-form-input>
               </b-form-group>
+
+              <div class="reg_btn">
+                <b-button variant="danger">Cancel</b-button>
+                <b-button variant="primary">Next</b-button>
+              </div>
+
             </b-card>
             </div>
 
@@ -249,7 +263,7 @@
           <div class="container">
             <b-card bg-variant="light">
 
-            <b-card-text>
+            <b-card-text class="reg_text">
               PARENTS INFORMATION
             </b-card-text>
 
@@ -289,8 +303,15 @@
               <b-form-input id="mcontact"></b-form-input>
             </b-form-group>
 
+
+            <div class="reg_btn">
+              <b-button variant="danger">Cancel</b-button>
+              <b-button variant="primary">Next</b-button>
+            </div>
+
           </b-card>
         </div>
+
       <Footer />
     </div>
 </template>

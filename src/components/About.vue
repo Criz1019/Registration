@@ -13,8 +13,9 @@
           </b-card>
 
               <!-- b-card for icons -->
-              <div class="about_cards">
+            <div class="about_cards">
                 <b-card-group deck>
+
                   <b-card class="about_card">
                     <img src="../assets/images/vission_mission.png" img-alt="Image" class="medal" img-top />
                       <b-link to="/VissionMission">
@@ -22,24 +23,24 @@
                       </b-link>
                   </b-card>
 
-              <b-card>
-                <img src="../assets/images/achievement.png" img-alt="Image" class="medal" img-top />
-                <b-card-text>
-                  <b-link to="/Achievements">
-                    School Achievements
-                  </b-link>
-                </b-card-text>
-              </b-card>
+                <b-card class="about_card">
+                  <img src="../assets/images/achievement.png" img-alt="Image" class="medal" img-top />
+                  <b-card-text>
+                    <b-link to="/Achievements">
+                      School Achievements
+                    </b-link>
+                  </b-card-text>
+                </b-card>
 
-              <b-card>
-                <img src="../assets/images/event.png" img-alt="Image" class="medal" img-top />
-                <b-link to="/Events">
-                  School Events
-                </b-link>
-              </b-card>
-            </b-card-group>
+                <b-card class="about_card">
+                  <img src="../assets/images/event.png" img-alt="Image" class="medal" img-top />
+                  <b-link to="/Events">
+                    School Events
+                  </b-link>
+                </b-card>
+              </b-card-group>
           </div>
-          
+
         </div>
       <Footer />
     </div>

@@ -10,18 +10,30 @@
 
       <!-- Courses container -->
       <div class="course_container">
+
         <div class="course_title">
           <h3>Computer Courses</h3>
         </div>
+
         <div class="course_body">
+
           <div class="course_card">
             <b-card class="">
               <b-card-text>
                 <h4>Bachelor of Science in Information Technology (BSIT)</h4>
                 <p>
-                  A Bachelor of Science in Information Technology, (abbreviated BSIT or B.Sc IT), is a Bachelor's degree awarded for an undergraduate course or program in the Information technology field. The degree is normally required in order to work in the Information technology industry.
+                  A Bachelor of Science in Information Technology,
+                  (abbreviated BSIT or B.Sc IT), is a Bachelor's degree awarded for an undergraduate course or
+                  program in the Information technology field. The degree is normally required in order to work
+                  in the Information technology industry.
 
-                  A Bachelor of Science in Information Technology degree program typically takes three to four years depending on the country. This degree is primarily focused on subjects such as software, databases, and networking. In general, computer science degrees tend to focus on the mathematical and theoretical foundations of computing rather than emphasizing specific technologies. The degree is a Bachelor of Science degree with institutions conferring degrees in the fields of information technology and related fields. This degree is awarded for completing a program of study in the field of software development, software testing, software engineering, web design, databases, programming, computer networking and computer systems.
+                  A Bachelor of Science in Information Technology degree program typically takes three to four years depending on the country.
+                   This degree is primarily focused on subjects such as software, databases, and networking.
+                   In general, computer science degrees tend to focus on the mathematical and theoretical
+                   foundations of computing rather than emphasizing specific technologies.
+                   The degree is a Bachelor of Science degree with institutions conferring degrees in the fields of information technology
+                   and related fields. This degree is awarded for completing a program of study in the field of software development,
+                  software testing, software engineering, web design, databases, programming, computer networking and computer systems.
                 </p>
               </b-card-text>
             </b-card>
@@ -32,7 +44,10 @@
               <b-card-text>
                 <h4>Bachelor of Science in Computer Science (BSCS)</h4>
                 <p>
-                  The Bachelor of Computer Science or Bachelor of Science in Computer Science (abbreviated BCompSc or BCS or BS CS or B.Sc. CS) is a type of bachelor's degree, usually awarded after three or four years of collegiate study in computer science, but possibly awarded in fewer years depending on factors such as an institution's course requirements and academic calendar. In some cases it can be awarded in five years. In general, computer science degree programs emphasize the mathematical and theoretical foundations of computing.
+                  The Bachelor of Computer Science or Bachelor of Science in Computer Science (abbreviated BCompSc or BCS or BS CS or B.Sc. CS)
+                  is a type of bachelor's degree, usually awarded after three or four years of collegiate study in computer science, but possibly
+                  awarded in fewer years depending on factors such as an institution's course requirements and academic calendar.
+                  In some cases it can be awarded in five years. In general, computer science degree programs emphasize the mathematical and theoretical foundations of computing.
                 </p>
               </b-card-text>
             </b-card>
@@ -43,11 +58,14 @@
               <b-card-text>
                 <h4>Associate in Computer Technology (ACT)</h4>
                 <p>
-                  The Associate in Computer Technology (ACT) provides students with the basic skills and knowledge required in the field of computer science, information systems, and information technology. It serves as a foundation for baccalaureate programs in computer science and information technology.
+                  The Associate in Computer Technology (ACT) provides students with the basic skills and knowledge required in the
+                  field of computer science, information systems, and information technology.
+                  It serves as a foundation for baccalaureate programs in computer science and information technology.
                 </p>
               </b-card-text>
             </b-card>
           </div>
+
         </div>
       </div>
 
