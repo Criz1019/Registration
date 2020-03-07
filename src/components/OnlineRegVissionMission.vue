@@ -78,10 +78,10 @@
 </template>
 
 <script>
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import Header from "./OnlineRegHeader.vue";
+import Footer from "./OnlineRegFooter.vue";
 export default {
-  name: "VissionMission",
+  name: "OnlineRegVissionMission",
   components: {
     Header,
     Footer

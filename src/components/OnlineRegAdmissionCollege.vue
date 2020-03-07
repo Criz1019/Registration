@@ -106,10 +106,10 @@
 </template>
 
 <script>
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import Header from "./OnlineRegHeader.vue";
+import Footer from "./OnlineRegFooter.vue";
     export default {
-        name: 'AdmissionCollege',
+        name: 'OnlineRegAdmissionCollege',
         components:{
           Header,
           Footer

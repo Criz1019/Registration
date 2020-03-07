@@ -11,7 +11,7 @@
               <div class="course_title">
                 <h3>School Achievements</h3>
               </div>
-              
+
               <b-carousel
                 id="carousel-1"
                 v-model="slide"
@@ -177,10 +177,10 @@
         </template>
 
 <script>
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import Header from "./OnlineRegHeader.vue";
+import Footer from "./OnlineRegFooter.vue";
 export default {
-  name: "Achievements",
+  name: "OnlineRegAchievements",
   components: {
     Header,
     Footer

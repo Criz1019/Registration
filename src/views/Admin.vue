@@ -6,16 +6,16 @@
 </template>
 
 <script>
-    import Home from "../components/Home.vue";
-    import Register from "../components/Register.vue";
-    import Course from "../components/Course.vue";
-    import Requirement from "../components/Requirement.vue";
-    import CollegeEnrollment from "../components/CollegeEnrollment.vue";
-    import SHEnrollment from "../components/SHEnrollment.vue";
-    import About from "../components/About.vue";
-    import VissionMission from "../components/VissionMission.vue";
-    import Achievements from "../components/Achievements.vue";
-    import Events from "../components/Events.vue";
+    import Home from "../components/OnlineRegHome.vue";
+    import Register from "../components/OnlineRegRegister.vue";
+    import Course from "../components/OnlineRegCourse.vue";
+    import Requirement from "../components/OnlineRegRequirement.vue";
+    import CollegeEnrollment from "../components/OnlineRegCollegeEnrollment.vue";
+    import SHEnrollment from "../components/OnlineRegSHEnrollment.vue";
+    import About from "../components/OnlineRegAbout.vue";
+    import VissionMission from "../components/OnlineRegVissionMission.vue";
+    import Achievements from "../components/OnlineRegAchievements.vue";
+    import Events from "../components/OnlineRegEvents.vue";
     import Axios from "axios";
     const baseUrl = "http://localhost/api/v1/";
     export default {

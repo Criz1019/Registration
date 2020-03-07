@@ -26,11 +26,11 @@
 
           <b-form-group
             label-cols-sm="3"
-            label="Track:"
+            label="Course:"
             label-align-sm="right"
-            label-for="track"
+            label-for="course"
             >
-            <b-form-input id="track"></b-form-input>
+            <b-form-input id="course"></b-form-input>
           </b-form-group>
 
           <b-form-group
@@ -53,11 +53,11 @@
 
           <b-form-group
             label-cols-sm="3"
-            label="Major:"
+            label="Year:"
             label-align-sm="right"
-            label-for="major"
+            label-for="year"
             >
-            <b-form-input id="major"></b-form-input>
+            <b-form-input id="year"></b-form-input>
           </b-form-group>
        </b-card>
       </div>
@@ -71,11 +71,11 @@
 
 
 <script>
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
+import Header from "./OnlineRegHeader.vue";
+import Footer from "./OnlineRegFooter.vue";
 
     export default {
-        name: 'SHEnrollment',
+        name: 'OnlineRegCollegeEnrollment',
         components:{
           Header,
           Footer
