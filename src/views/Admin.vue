@@ -13,7 +13,7 @@
     import CollegeEnrollment from "../components/OnlineRegCollegeEnrollment.vue";
     import SHEnrollment from "../components/OnlineRegSHEnrollment.vue";
     import About from "../components/OnlineRegAbout.vue";
-    import VissionMission from "../components/OnlineRegVissionMission.vue";
+    import VissionMission from "../components/OnlineRegVisionMission.vue";
     import Achievements from "../components/OnlineRegAchievements.vue";
     import Events from "../components/OnlineRegEvents.vue";
     import Axios from "axios";

@@ -81,7 +81,7 @@
 import Header from "./OnlineRegHeader.vue";
 import Footer from "./OnlineRegFooter.vue";
 export default {
-  name: "OnlineRegVissionMission",
+  name: "OnlineRegVisionMission",
   components: {
     Header,
     Footer

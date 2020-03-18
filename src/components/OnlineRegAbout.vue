@@ -17,9 +17,9 @@
                 <b-card-group deck>
 
                   <b-card class="about_card">
-                    <img src="../assets/images/vission_mission.png" img-alt="Image" class="medal" img-top />
-                      <b-link to="/VissionMission">
-                        Mission And Vission
+                    <img src="../assets/images/vision_mission.png" img-alt="Image" class="medal" img-top />
+                      <b-link to="/VisionMission">
+                        Mission And Vision
                       </b-link>
                   </b-card>
 

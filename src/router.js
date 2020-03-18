@@ -16,7 +16,7 @@ import Requirement from "./components/OnlineRegRequirement.vue";
 import CollegeEnrollment from "./components/OnlineRegCollegeEnrollment.vue";
 import SHEnrollment from "./components/OnlineRegSHEnrollment.vue";
 import About from "./components/OnlineRegAbout.vue";
-import VissionMission from "./components/OnlineRegVissionMission.vue";
+import VissionMission from "./components/OnlineRegVisionMission.vue";
 import Achievements from "./components/OnlineRegAchievements.vue";
 import Events from "./components/OnlineRegEvents.vue";
 Vue.use(Router);
@@ -127,9 +127,9 @@ export default new Router({
       },
     },
     {
-      path: "/VissionMission",
-      name: "VissionMission",
-      component: VissionMission,
+      path: "/VisionMission",
+      name: "VisionMission",
+      component: VisionMission,
       beforeEnter(to, from, next){
         setTimeout(() => next(), 100);
       },
