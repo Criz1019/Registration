@@ -16,7 +16,7 @@ import Requirement from "./components/OnlineRegRequirement.vue";
 import CollegeEnrollment from "./components/OnlineRegCollegeEnrollment.vue";
 import SHEnrollment from "./components/OnlineRegSHEnrollment.vue";
 import About from "./components/OnlineRegAbout.vue";
-import VissionMission from "./components/OnlineRegVisionMission.vue";
+import VisionMission from "./components/OnlineRegVisionMission.vue";
 import Achievements from "./components/OnlineRegAchievements.vue";
 import Events from "./components/OnlineRegEvents.vue";
 Vue.use(Router);

@@ -1,6 +1,8 @@
 <template>
-    <b-footer class="footer-top">
-      <div class="container">
+
+      <div>
+        <b-footer class="footer-top">
+          <div class="container">
         <div class="row">
 
           <div class="col-md-3 col-sm 6 col xs-12 segment-one">
@@ -28,10 +30,11 @@
                 COMTEQ Computer & Business College.
               </p>
           </div>
-
+</div>
           </div>
+            </b-footer>
         </div>
-      </b-footer>
+
 </template>
 
 <script>
