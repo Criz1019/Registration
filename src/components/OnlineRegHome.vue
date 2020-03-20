@@ -27,6 +27,10 @@
                 <h1>Comteq Computer and Business College</h1>
               </b-carousel-slide>
 
+              <b-carousel-slide img-height="480" :img-src="require('../assets/images/banner_sample.png') ">
+                <h1>Comteq Computer and Business College</h1>
+              </b-carousel-slide>
+
 
             </b-carousel>
           </div>
