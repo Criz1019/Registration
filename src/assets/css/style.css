@@ -141,14 +141,9 @@ h3,h4,h5,h6{
 /* End of body */
 
 /* Home page */
-.cover_img{
-  width: 100%;
+.card-img-top{
+  height: 200px;
 }
-
-.medal{
-  width: 100%;
-}
-
 
 /* Programs */
 .course_title{
@@ -165,6 +160,14 @@ h3,h4,h5,h6{
 }
 
 /* About */
+.cover_img{
+  width: 100%;
+}
+
+.medal{
+  width: 100%;
+}
+
 .about_banner{
   position: absolute;
 }
@@ -175,7 +178,7 @@ h3,h4,h5,h6{
 .about_carousel{
   margin: 60px;
   margin-right: 60px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .about_cards{

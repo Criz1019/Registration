@@ -37,7 +37,7 @@
           <!-- start of cards -->
           <div class="vertical_cards_container">
             <b-card-group deck>
-              <b-card class="p-3" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" title="Basta Computer Comteq!" img-alt="Image" img-top :img-src="require('../assets/images/HomeCard1.jpg') ">
+              <b-card class="homecard p-3" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" title="Basta Computer Comteq!" img-alt="Image" img-top :img-src="require('../assets/images/HomeCard1.jpg') ">
                 <b-card-text>
                   <strong>Be one of the:</strong>
                   <ul>
@@ -51,15 +51,15 @@
                 </b-card-text>
               </b-card>
 
-              <b-card title="ENROLL NOW!" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card class="homecard p-3"  style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" title="Enroll Now!" img-alt="Image" img-top :img-src="require('../assets/images/HomeCard2.jpg') ">
                 <b-card-text>
-                  <strong>We are the New Creator</strong><br>
-                  <strong>Develope and improve your talent.</strong><br>
-                  <strong>Enhance and perform your hidden skills.</strong>
+                  <p>We are the New Creator. </br>
+                    Develop and improve your talent. </br>
+                    Enhance and perform your hidden skills.</p>
                 </b-card-text>
               </b-card>
 
-              <b-card title="CPA's ba ang nais?" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card class="homecard p-3"  style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" title="CPA's ba ang nais?" img-alt="Image" img-top :img-src="require('../assets/images/HomeCard3.jpg') ">
                 <b-card-text>
                   <strong>This is your better Choice!</strong><br>
                     <p>CPAs with CORPORATE ACCOUNTING work experince and familiar with COMPUTER-BASED financial systems will be teaching Accounting Subjects.</p>
@@ -149,148 +149,6 @@
       <Footer />
     </div>
 </template>
-            <!-- <b-card img-src="https://placekitten.com/300/300" img-alt="Card image" img-left class="mb-3">
-              <div class="btn_accordion">
-                <b-card-text>
-                  <h3>Academic Scholars</h3>
-                  <h4>(100% FREE tuition)</h4>
-                </b-card-text>
-
-                  <b-button
-                    :class="visible ? null : 'collapsed'"
-                    :aria-expanded="visible ? 'true' : 'false'"
-                    aria-controls="collapse-4"
-                    @click="visible = !visible"
-                  >
-                    More details...
-                  </b-button>
-                  <b-collapse id="collapse-4" v-model="visible" class="mt-2">
-                    <b-card>
-                      <ol>
-                        <strong>
-                         <li>With Highest Honor: 98-100</li>
-                         <li>With High Honors: 95-97</li>
-                         <li>With Honors: 90-94</li>
-                       </strong>
-                      </ol>
-                        <p>For Tertiary Education Subsidies, you will be evaluated first by Comteq College but final approval is with CHED.</p>
-                        <p>For Financial Scholarships and subsidies, these will be sponsored by individuals and local or US companies affiliated with Comteq College.</p>
-                        <p> These may be full or partial scholarships but will be based on a General Weighted Average of 87 or higher.</p>
-                        <p> Also, the annual family gross income must be P200,000 or less.</p>
-                        <h4>Based on DepEd Order No. 36, s. 2016:</h4>
-                    </b-card>
-                  </b-collapse>
-                </div>
-            </b-card>
-
-            <b-card img-src="https://placekitten.com/300/300" img-alt="Card image" img-right>
-              <b-card-text>
-                <h2>Atletics Scholars</h2>
-              </b-card-text>
-
-                <b-button
-                  :class="visible ? null : 'collapsed'"
-                  :aria-expanded="visible ? 'true' : 'false'"
-                  aria-controls="collapse-4"
-                  @click="visible = !visible"
-                >
-                  More details...
-                </b-button>
-                <b-collapse id="collapse-4" v-model="visible" class="mt-2">
-                  <b-card>
-                    sample data
-                  </b-card>
-                </b-collapse>
-            </b-card>
-          </div> -->
-
-
-
-
-
-<!-- <b-body>
-
-
-  <div>
-     <b-card-group deck>
-       <b-card border-variant="warning">
-         <img src="../assets/images/medal.png" img-alt="Image" class="medal" img-top />
-         <b-card-text>
-           No Tuition Fee! with FREE (2 Sets of Uniform)
-         </b-card-text>
-         <b-button variant="info">More Info...</b-button>
-       </b-card>
-
-       <b-card border-variant="warning">
-         <img src="../assets/images/medal.png" img-alt="Image" class="medal" img-top />
-         <b-card-text>
-           No Top-Up! 100% FREE Tuition for Senior High
-         </b-card-text>
-        <b-button variant="info">More Info...</b-button>
-       </b-card>
-
-       <b-card border-variant="warning">
-         <img src="../assets/images/medal.png" img-alt="Image" class="medal" img-top />
-         <b-card-text>
-           Without HONORS? No Worries you have Discount!
-         </b-card-text>
-          <b-button variant="info">More Info...</b-button>
-       </b-card>
-     </b-card-group>
-   </div>
-
-   <div>
-     <b-card no-body class="overflow-hidden">
-       <b-row no-gutters>
-         <b-col md="6">
-           <img src="../assets/images/pic3.jpg" class="rounded-0" />
-         </b-col>
-         <b-col md="6">
-           <b-card-body title="Enroll Now!">
-             <b-card-text>
-               We are the New Creator, enhance and perform your hidden skills. Develope and improve your talent.
-             </b-card-text>
-           </b-card-body>
-         </b-col>
-       </b-row>
-     </b-card>
-   </div>
-
-   <div>
-     <b-card no-body class="overflow-hidden">
-       <b-row no-gutters>
-         <b-col md="6">
-           <img src="../assets/images/tesda5.jpg" class="rounded-0" />
-         </b-col>
-         <b-col md="6">
-           <b-card-body title="Basta Computer Comteq!">
-             <b-card-text>
-               Do you want to be one of the profesional Web Developer, Graphic Desiner, Photograper, Programmer, Web Designer or a Film Maker?
-             </b-card-text>
-           </b-card-body>
-         </b-col>
-       </b-row>
-     </b-card>
-   </div>
-
-   <div>
-     <b-card no-body class="overflow-hidden">
-       <b-row no-gutters>
-         <b-col md="6">
-           <img src="../assets/images/mv.jpg" class="rounded-0" />
-         </b-col>
-         <b-col md="6">
-           <b-card-body title="COMTEQ!">
-             <b-card-text>
-               This is a BETTER CHOICE
-             </b-card-text>
-           </b-card-body>
-         </b-col>
-       </b-row>
-     </b-card>
-   </div>
-
-</b-body> -->
 
 
 <script>
@@ -318,6 +176,5 @@
               this.sliding = false
             }
           },
-
         }
 </script>

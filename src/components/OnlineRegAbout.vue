@@ -4,10 +4,10 @@
       <div class="about_carousel">
         <b-card
           overlay
-          img-src="https://picsum.photos/900/250/?image=3"
+          :img-src="require('../assets/images/AboutBanner.jpg') "
           img-alt="Card Image"
           text-variant="white"
-          title="Image Overlay"
+          title="Comteq Computer Business College"
           sub-title="Subtitle"
             >
           </b-card>
@@ -58,11 +58,18 @@
         data() {
             return {
               // This data is for accordion(learn more)
-              visible: false
+              visible: false,
+              slide: true,
+              sliding: null,
             }
         },
         methods: {
-
-            },
+          onSlideStart(slide) {
+            this.sliding = true
+          },
+          onSlideEnd(slide) {
+            this.sliding = false
+            }
+          },
         }
 </script>
