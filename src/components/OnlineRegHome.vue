@@ -19,16 +19,14 @@
             >
 
               <!-- Slides with custom text -->
-              <b-carousel-slide :img-src="require('../assets/images/varcity_banner.png')">
+              <b-carousel-slide :img-src="require('../assets/images/Banner1.jpg')">
+              </b-carousel-slide>
+
+              <b-carousel-slide img-height="480" :img-src="require('../assets/images/Banner2.jpg') ">
                 <h1>Basketball Tournament 2018</h1>
               </b-carousel-slide>
 
-              <b-carousel-slide img-height="480" :img-src="require('../assets/images/School.jpg') ">
-                <h1>Comteq Computer and Business College</h1>
-              </b-carousel-slide>
-
-              <b-carousel-slide img-height="480" :img-src="require('../assets/images/banner_sample.png') ">
-                <h1>Comteq Computer and Business College</h1>
+              <b-carousel-slide img-height="480" :img-src="require('../assets/images/Banner3.jpg') ">
               </b-carousel-slide>
 
 
@@ -39,7 +37,7 @@
           <!-- start of cards -->
           <div class="vertical_cards_container">
             <b-card-group deck>
-              <b-card title="Basta Computer Comteq!" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+              <b-card class="p-3" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" title="Basta Computer Comteq!" img-alt="Image" img-top :img-src="require('../assets/images/HomeCard1.jpg') ">
                 <b-card-text>
                   <strong>Be one of the:</strong>
                   <ul>
