@@ -146,9 +146,6 @@ h3,h4,h5,h6{
 }
 
 /* Programs */
-.course_title{
-  padding: 0px 30px;
-}
 
 .course_body{
   padding: 10px 70px;
@@ -189,12 +186,21 @@ h3,h4,h5,h6{
   text-align: center;
 }
 
+.Ach_title{
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+  font-style: oblique;
+  font-family:-webkit-pictograph;
+}
+
 /* Footer */
 .footer-top{
   text-align: center;
-  padding: 10px 10px 10px 10px;
+  padding: 5px;
   color: white;
   width: 100%;
+  height: 400px;
   display: block;
   background-color: rgb(27, 86, 243);
 }
@@ -222,6 +228,21 @@ h3,h4,h5,h6{
 .carousel_body{
   padding: 10px 70px;
   margin-bottom: 10px;
+}
+
+
+/*Events*/
+.event_img{
+  width: 300px;
+  height:300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  margin: 10px 1px;
+}
+
+.gallery_cointainer{
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*Registration*/
@@ -295,6 +316,6 @@ h3,h4,h5,h6{
 /* Events */
 
 .gallery_cointainer{
-  padding:40px;
-  margin-top: 40px;
+  padding:20px;
+  margin-top: 20px;
 }

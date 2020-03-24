@@ -1,9 +1,8 @@
 <template>
 
-      <div>
-        <b-footer class="footer-top">
-          <div class="container">
-        <div class="row">
+  <b-footer class="footer-top">
+    <div class="container">
+      <div class="row">
 
           <div class="col-md-3 col-sm 6 col xs-12 segment-one">
             <h3>Developers!</h3>
@@ -21,21 +20,24 @@
           </div>
 
           <div class="col-md-3 col-sm 6 col xs-12 segment-one">
-            <b-link href="https://www.facebook.com/comteqsbfz/?epa=SEARCH_BOX">
-              <img src="../assets/images/facebook.png" img-alt="Image" class="facebook_icon" img-top />
-            </b-link>
               <p>
                 Copyright &copy
                 {{ getFullYear }}
                 COMTEQ Computer & Business College.
               </p>
           </div>
-</div>
-          </div>
-            </b-footer>
-        </div>
 
+          <div>
+            <b-link href="https://www.facebook.com/comteqsbfz/?epa=SEARCH_BOX">
+              <img src="../assets/images/facebook.png" img-alt="Image" class="facebook_icon" img-top />
+            </b-link>
+          </div>
+
+        </div>
+      </div>
+    </b-footer>
 </template>
+
 
 <script>
     export default {
@@ -45,6 +47,7 @@
               getFullYear : new Date().getFullYear()
             }
         },
+
         methods: {
 
             },

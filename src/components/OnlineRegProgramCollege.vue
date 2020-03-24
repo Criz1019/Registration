@@ -75,7 +75,7 @@
         </div>
         <div class="course_body">
           <div class="course_card">
-            <b-card img-src="https://placekitten.com/200/200" img-alt="Card image" img-right>
+            <b-card img-alt="Card image" img-right>
               <b-card-text>
                 <h4>Bachelor of Science in Business Management (BSBA-OPM)</h4>
                 <h5><i>Major in Operations Management</i></h5>
@@ -86,7 +86,7 @@
             </b-card>
           </div>
           <div class="course_card">
-            <b-card img-src="https://placekitten.com/200/200" img-alt="Card image" img-right>
+            <b-card img-alt="Card image" img-right>
               <b-card-text>
                 <h4>Bachelor of Science in Business Management (BSBA-HRDM)</h4>
                 <h5><i>Major in Human Resource Development Management</i></h5>
@@ -97,7 +97,7 @@
             </b-card>
           </div>
           <div class="course_card">
-            <b-card img-src="https://placekitten.com/200/200" img-alt="Card image" img-right>
+            <b-card img-alt="Card image" img-right>
               <b-card-text>
                 <h4>Bachelor of Science in Accountancy (BSA)</h4>
                 <p>

@@ -6,7 +6,8 @@
       <hr>
       <div class="accordion_container">
         <div role="tablist">
-          <!-- requirements -->
+
+          <!-- requirements Accordion-->
           <div class="accordion_cards">
             <b-card no-body class="mb-1">
               <b-card-header header-tag="header" class="p-0" role="tab">

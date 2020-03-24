@@ -3,7 +3,7 @@
     <Header />
       <div class="body_container">
         <div class="page_title">
-          <h2>Comteq Computer and Business College </h2>
+          <h2 class="Ach_title">Comteq Computer and Business College</h2>
         </div>
           <hr>
 
@@ -11,7 +11,7 @@
               <div class="course_title">
                 <h3>School Achievements</h3>
               </div>
-
+              <hr>
               <b-carousel
                 id="carousel-1"
                 v-model="slide"
@@ -26,40 +26,9 @@
                 @sliding-end="onSlideEnd"
               >
                 <!-- Text slides with image -->
-
-                  <b-carousel-slide
-                    caption="2019 awards"
-                    img-src="https://picsum.photos/1024/480/?image=52"
-                    >
-                    agdhjavfkasbdjf
-                  </b-carousel-slide>
-
-                <!-- Slides with custom text -->
-                <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-                  <h1>Hello world!</h1>
+                <b-carousel-slide :img-src="require('../assets/images/Banner1.jpg') ">
                 </b-carousel-slide>
 
-                <!-- Slides with image only -->
-                <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58">
-
-                </b-carousel-slide>
-
-                <!-- Slides with img slot -->
-                <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-                <b-carousel-slide>
-                  <template v-slot:img>
-                    <img
-                      class="d-block img-fluid w-100"
-                      width="1024"
-                      height="480"
-                      src="https://picsum.photos/1024/480/?image=55"
-                      alt="image slot"
-                    >
-                  </template>
-                </b-carousel-slide>
-                <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-                <!-- <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-                </b-carousel-slide> -->
               </b-carousel>
             </div>
 
@@ -83,37 +52,10 @@
                     @sliding-end="onSlideEnd"
                   >
                     <!-- Text slides with image -->
-                      <b-carousel-slide
-                        caption="First slide"
-                        img-src="https://picsum.photos/1024/480/?image=52"
-                        >
-                      </b-carousel-slide>
 
-                    <!-- Slides with custom text -->
-                    <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-                      <h1>Hello world!</h1>
+                    <b-carousel-slide img-height="480" :img-src="require('../assets/images/Banner3.jpg') ">
                     </b-carousel-slide>
 
-                    <!-- Slides with image only -->
-                    <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58">
-                    </b-carousel-slide>
-
-                    <!-- Slides with img slot -->
-                    <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-                    <b-carousel-slide>
-                      <template v-slot:img>
-                        <img
-                          class="d-block img-fluid w-100"
-                          width="1024"
-                          height="480"
-                          src="https://picsum.photos/1024/480/?image=55"
-                          alt="image slot"
-                        >
-                      </template>
-                    </b-carousel-slide>
-                    <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-                    <!-- <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-                    </b-carousel-slide> -->
                   </b-carousel>
                 </div>
 
@@ -138,37 +80,10 @@
                         @sliding-end="onSlideEnd"
                       >
                         <!-- Text slides with image -->
-                          <b-carousel-slide
-                            caption="First slide"
-                            img-src="https://picsum.photos/1024/480/?image=52"
-                            >
-                          </b-carousel-slide>
-
-                        <!-- Slides with custom text -->
-                        <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-                          <h1>Hello world!</h1>
+                        <b-carousel-slide img-height="480" :img-src="require('../assets/images/Banner2.jpg') ">
+                          <h1>Basketball Tournament 2018</h1>
                         </b-carousel-slide>
 
-                        <!-- Slides with image only -->
-                        <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58">
-                        </b-carousel-slide>
-
-                        <!-- Slides with img slot -->
-                        <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-                        <b-carousel-slide>
-                          <template v-slot:img>
-                            <img
-                              class="d-block img-fluid w-100"
-                              width="1024"
-                              height="480"
-                              src="https://picsum.photos/1024/480/?image=55"
-                              alt="image slot"
-                            >
-                          </template>
-                        </b-carousel-slide>
-                        <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-                        <!-- <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-                        </b-carousel-slide> -->
                       </b-carousel>
                     </div>
                 </div>
