@@ -205,7 +205,7 @@ h3,h4,h5,h6{
   background-color: rgb(27, 86, 243);
 }
 
-.facebook_icon{
+.icon{
   width: 30px;
   height: 30px;
 }
@@ -318,4 +318,33 @@ h3,h4,h5,h6{
 .gallery_cointainer{
   padding:20px;
   margin-top: 20px;
+}
+
+
+/*footer*/
+
+.footer-top div{
+  margin-left: 5px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.footer-top h3{
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.footer-top p{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.footer-top img{
+  display: -webkit-box;
+}
+
+.footer-top strong{
+  position: absolute;
+  margin-top: 300px;
 }

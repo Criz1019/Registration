@@ -6,31 +6,41 @@
 
           <div class="col-md-3 col-sm 6 col xs-12 segment-one">
             <h3>Developers!</h3>
-              <p>Ms. Hasmin Cuevas - Project Manager</p>
-              <p>Apid, Cristine Barrios</p>
-              <p>Mariano, Renz Austin Delos Reyes</p>
-              <p>Marty, John Christopher Lulu</p>
+            <hr>
+              <p>Ms. Hasmin Cuevas <br> Project Manager</p>
+              <p>Apid, Cristine Barrios<br>
+              Mariano, Renz Austin Delos Reyes<br>
+              Marty, John Christopher Lulu</p>
           </div>
 
           <div class="col-md-3 col-sm 6 col xs-12 segment-one">
-            <h3>Contact Us!</h3>
-              <p>1200 4th floor Savers Appliance, Rizal Ave</p>
-              <p>East Tapinac, Olongapo City, Zambales</P>
-              <p>Tel: +63(47)252-3335/www.comteq.edu.ph</p>
-          </div>
-
-          <div class="col-md-3 col-sm 6 col xs-12 segment-one">
-              <p>
-                Copyright &copy
-                {{ getFullYear }}
-                COMTEQ Computer & Business College.
-              </p>
+            <h3>About Us!</h3>
+            <hr>
+            <img src="../assets/images/address_icon.png" img-alt="Image" class="icon" img-top />
+              <p class="address">1200 4th floor Savers Appliance, Rizal Ave, East Tapinac, Olongapo City, Zambales</P>
+            <img src="../assets/images/contact_icon.jpg" img-alt="Image" class="icon" img-top />
+              <p>Tel: +63(47)252-3335</p>
           </div>
 
           <div>
+            <h3>Media Account!</h3>
+            <hr>
             <b-link href="https://www.facebook.com/comteqsbfz/?epa=SEARCH_BOX">
-              <img src="../assets/images/facebook.png" img-alt="Image" class="facebook_icon" img-top />
+              <img src="../assets/images/facebook.png" img-alt="Image" class="icon" img-top />
             </b-link>
+
+            <b-link href="http://comteq.edu.ph/wp/">
+              <img src="../assets/images/wordpress.png" img-alt="Image" class="icon" img-top />
+            </b-link>
+          </div>
+
+
+          <div>
+              <strong>
+                Copyright &copy
+                {{ getFullYear }}
+                COMTEQ Computer & Business College
+              </strong>
           </div>
 
         </div>
