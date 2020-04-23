@@ -1,6 +1,6 @@
 <template>
 
-  <b-footer class="footer-top">
+  <footer class="footer-top">
     <div class="container">
       <div class="row">
 
@@ -45,7 +45,7 @@
 
         </div>
       </div>
-    </b-footer>
+    </footer>
 </template>
 
 
