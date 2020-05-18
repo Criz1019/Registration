@@ -571,7 +571,7 @@
           </transition>
         </div>
         <!-- Parents Information -->
-
+      <div class="container" >
         <transition name="fade">
           <div id="" class="mx-3 mb-4 p-4 bg-white shadow rounded" v-if="ShowAllInfoshowForm">
             <!-- <center>
@@ -1093,8 +1093,7 @@
               </div>
             </div>
         </transition>
-
-
+      </div>
 
       <Footer class="d-print-none" />
     </div>
