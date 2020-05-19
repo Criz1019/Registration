@@ -1090,6 +1090,19 @@
                   </b-form-group>
                 </b-col>
               </b-form-row>
+
+              <b-form-row>
+                <b-col>
+                  <b-button variant="danger" @click="backParentInfoForm">
+                    Previous
+                  </b-button>
+                </b-col>
+                <b-col class="d-flex justify-content-end">
+                  <b-button variant="primary" @click="RegStudents">
+                    Register
+                  </b-button>
+                </b-col>
+                </b-form-row>
               </div>
             </div>
         </transition>
@@ -1215,8 +1228,6 @@ data() {
 methods: {
 
 
-
-
   backPersonalInfoForm: function(){
     this.PersonalInfoshowForm = true;
     this.ParentsInfoshowForm = false;
@@ -1225,6 +1236,11 @@ methods: {
   backStudentInfoForm: function(){
     this.StudentInfoshowForm = true;
     this.PersonalInfoshowForm = false;
+  },
+
+  backParentInfoForm: function(){
+    this.ShowAllInfoshowForm = false;
+    this.showParentsInfoForm = true;
   },
 
   showPersonalInfoForm: function(){
