@@ -1,22 +1,21 @@
 <template>
-  <div>
-    <b-navbar class="nav" toggleable="lg" type="dark" >
+  <div class="nav">
+    <b-navbar toggleable="lg" type="dark" >
       <!-- <b-navbar-brand href="#">COMTEQ</b-navbar-brand> -->
       <!-- <div class="logo_container">
-        <b-img src="../../public/logo.jfif" fluid alt="Responsive image"></b-img>
+        <b-img src="../../public/logo.jfif" fluclass alt="Responsive image"></b-img>
       </div> -->
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse class="nav-collapse" is-nav>
         <b-navbar-nav class="navbar_nav">
           <b-nav-item class="nav_item" href="#" to="/Home">Home</b-nav-item>
-
           <b-nav-item class="nav_item dropdown" href="#">
             Programs
             <div class="dropdown-content">
               <router-link to="/ProgramCollege"><a href="#" >College</a></router-link>
-              <b-dropdown-divider></b-dropdown-divider>
+              <b-dropdown-divclasser></br></b-dropdown-divclasser>
               <router-link to="/ProgramSHS"><a href="#" >Senior High</a></router-link>
             </div>
           </b-nav-item>
@@ -25,7 +24,7 @@
             Admissions
             <div class="dropdown-content">
               <router-link to="/AdmissionCollege"><a href="#" >College</a></router-link>
-              <b-dropdown-divider></b-dropdown-divider>
+              <b-dropdown-divclasser></br></b-dropdown-divclasser>
               <router-link to="/AdmissionSHS"><a href="#" >Senior High</a></router-link>
             </div>
           </b-nav-item>
@@ -36,7 +35,7 @@
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
-        <!-- end of class ml-auto -->
+        <!-- end of  ml-auto -->
       </b-collapse>
     </b-navbar>
   </div>
@@ -46,7 +45,7 @@
 
 
 <!-- <header>
-  <div class="top-nav" justify>
+  <div ="top-nav" justify>
     <div class="nav-menu">
       <b-navbar toggleable="lg" type="dark" variant="primary">
 
@@ -67,7 +66,7 @@
             <b-nav-item href="#">Account</b-nav-item>
           </b-navbar-nav>
           <b-left>
-            <img src="../assets/images/comteq_logo1.png"  id="ComteqLogo" class="responsive"/>
+            <img src="../assets/images/comteq_logo1.png"  ="ComteqLogo" class="responsive"/>
           </b-left>
       </b-navbar>
     </div>

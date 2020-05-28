@@ -15,7 +15,7 @@
                   <h4>Requirments</h4>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+              <b-collapse class="accordion-1" accordion="my-accordion" role="tabpanel">
                 <b-card-body>
                   <b-card>
                     <b-card-text>
@@ -64,7 +64,7 @@
                   <h4>Procedure</h4>
                 </b-button>
               </b-card-header>
-              <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+              <b-collapse class="accordion-2" accordion="my-accordion" role="tabpanel">
                 <b-card-body>
                   <b-card>
                     <b-card-text>

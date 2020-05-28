@@ -13,7 +13,7 @@
 
 
       <!-- Student Information -->
-      <div class="container">
+      <div id="container">
         <transition name="fade">
           <div id="" class="mx-3 mb-4 p-4 bg-white shadow rounded" v-if="StudentInfoshowForm">
             <b-alert variant="success"
@@ -187,7 +187,7 @@
       <!-- Student Information -->
 
       <!-- personal Information -->
-      <div class="container">
+      <div id="container">
         <transition name="fade">
         <div id="" class="mx-3 mb-4 p-4 bg-white shadow rounded"  v-if="PersonalInfoshowForm">
         <div class=" h5 font-weight-bold text-dark text-center">Personal Information</div>
@@ -450,7 +450,7 @@
 
 
             <!-- Parents Information -->
-          <div class="container">
+          <div id="container">
             <transition name="fade">
               <div id="" class="mx-3 mb-4 p-4 bg-white shadow rounded" v-if="ParentsInfoshowForm">
               <div class=" h5 font-weight-bold text-dark text-center">Parents Information</div>
@@ -571,7 +571,7 @@
           </transition>
         </div>
         <!-- Parents Information -->
-      <div class="container" >
+      <div id="container" >
         <transition name="fade">
           <div id="" class="mx-3 mb-4 p-4 bg-white shadow rounded" v-if="ShowAllInfoshowForm">
             <!-- <center>

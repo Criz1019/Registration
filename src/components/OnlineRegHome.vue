@@ -5,7 +5,7 @@
           <!-- start of carousel -->
           <div class="carousel_container">
             <b-carousel
-              id="carousel-1"
+              class="carousel-1"
               v-model="slide"
               :interval="4000"
               controls
@@ -112,7 +112,7 @@
                         <h4>Athletic Scholars</h4>
                       </b-button>
                     </b-card-header>
-                    <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+                    <b-collapse class="accordion-2" accordion="my-accordion" role="tabpanel">
                       <b-card-body>
                         <b-card-text>
                           Add instruction on how to avail the Atletics scholarship of the school. The steps and procedure hon how to became a  varcity player.
@@ -129,7 +129,7 @@
                         <h4>Other Discounts</h4>
                       </b-button>
                     </b-card-header>
-                    <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+                    <b-collapse class="accordion-3" accordion="my-accordion" role="tabpanel">
                       <b-card-body>
                         <b-card-text>
                           <ul>

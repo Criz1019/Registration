@@ -103,12 +103,12 @@ body {
   width: 100%;
 
 }
-#ComteqLogo {
+.ComteqLogo {
   height: 50px;
 	width: 70%;
 
 }
-#comteqlogo{
+.comteqlogo{
 	height: 100px;
 	width: 50px;
 }
@@ -121,6 +121,7 @@ body {
     width: 100%;
     position: relative
 }
+
 /* Start of Body */
 .body_container{
   padding: 20px;
@@ -177,7 +178,7 @@ body {
   width: 100%;
 }
 
-.medal{
+#medal{
   width: 100%;
 }
 
@@ -188,17 +189,17 @@ body {
   margin: 200px;
 }
 
-.about_carousel{
+#about_carousel{
   margin: 60px;
   margin-right: 60px;
   margin-top: 70px;
 }
 
-.about_cards{
+#about_cards{
   margin-top:40px;
 }
 
-.about_card{
+#about_card{
   text-align: center;
 }
 
@@ -211,7 +212,7 @@ body {
 }
 
 /* Footer */
-.footer-top{
+#footer-top{
   text-align: center;
   padding: 5px;
   color: white;
@@ -221,7 +222,7 @@ body {
   background-color: rgb(27, 86, 243);
 }
 
-.icon{
+#SO-icon{
   width: 30px;
   height: 30px;
 }
@@ -231,7 +232,7 @@ body {
   padding: 0px 30px;
 }
 
-.vm_body{
+#vm_body{
   padding: 10px 70px;
   margin-bottom: 10px;
 }
@@ -248,7 +249,7 @@ body {
 
 
 /*Events*/
-.event_img{
+#event_img{
   width: 300px;
   height:300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -256,18 +257,14 @@ body {
   margin: 10px 1px;
 }
 
-.gallery_cointainer{
+#gallery_cointainer{
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*Registration*/
-.container{
-  margin: 100px auto;
-}
-
-.reg_btn{
-
+#container{
+  margin: 100px;
 }
 
 .reg_text{
@@ -330,38 +327,31 @@ body {
       background-color: #55b776;
   }
 
-/* Events */
-
-.gallery_cointainer{
-  padding:20px;
-  margin-top: 20px;
-}
-
 
 /*footer*/
 
-.footer-top div{
+#footer-top div{
   margin-left: 5px;
   margin-right: 40px;
   margin-top: 20px;
 }
 
-.footer-top h3{
+#footer-top h3{
   text-align: left;
   margin-bottom: 30px;
 }
 
-.footer-top p{
+#footer-top p{
   text-align: left;
   margin-top: 20px;
   margin-left: 10px;
 }
 
-.footer-top img{
+#footer-top img{
   display: -webkit-box;
 }
 
-.footer-top strong{
+#footer-top strong{
   position: absolute;
   margin-top: 300px;
 }

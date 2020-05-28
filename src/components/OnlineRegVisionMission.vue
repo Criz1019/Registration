@@ -11,8 +11,8 @@
         <div class="course_title">
           <h3>COMTEQ COLLEGE IS BUILT AROUND A SET OF CORE VALUES:</h3>
         </div>
-        <div class="vm_body">
-          <div class="vm_card">
+        <div id="vm_body">
+          <div id="vm_card">
             <b-card class="">
               <b-card-text>
                 <h4>Our Vission</h4>
@@ -23,7 +23,7 @@
             </b-card>
           </div>
 
-          <div class="vm_card">
+          <div id="vm_card">
             <b-card>
               <b-card-text>
                 <h4>Our Mission</h4>
@@ -34,7 +34,7 @@
             </b-card>
           </div>
 
-          <div class="vm_card">
+          <div id="vm_card">
             <b-card>
               <b-card-text>
                 <h4>Our Products</h4>
@@ -43,7 +43,7 @@
             </b-card>
           </div>
 
-          <div class="vm_card">
+          <div id="vm_card">
             <b-card>
               <b-card-text>
                 <h4>Our Training Method</h4>
@@ -54,7 +54,7 @@
             </b-card>
           </div>
 
-          <div class="vm_card">
+          <div id="vm_card">
             <b-card>
               <b-card-text>
                 <h4>Corporate Values</h4>

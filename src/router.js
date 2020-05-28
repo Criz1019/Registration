@@ -19,6 +19,7 @@ import About from "./components/OnlineRegAbout.vue";
 import VisionMission from "./components/OnlineRegVisionMission.vue";
 import Achievements from "./components/OnlineRegAchievements.vue";
 import Events from "./components/OnlineRegEvents.vue";
+
 Vue.use(Router);
 
 /*NOTE: the meta inside each route is useless for now.

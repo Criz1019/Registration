@@ -20,44 +20,44 @@
                 <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
 
                   <!--Acquaintance Gallery-->
-                      <div class="gallery_cointainer">
+                      <div id="gallery_cointainer">
                         <b-container fluid class="p-5 bg-dark" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                           <b-row>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/1ACQ2019.jpg" alt="Image 1"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/1ACQ2019.jpg" alt="Image 1"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/2ACQ2019.jpg" alt="Image 2"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/2ACQ2019.jpg" alt="Image 2"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/3ACQ2019.jpg" alt="Image 3"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/3ACQ2019.jpg" alt="Image 3"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/4ACQ2019.jpg" alt="Image 4"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/4ACQ2019.jpg" alt="Image 4"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/5ACQ2019.jpg" alt="Image 5"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/5ACQ2019.jpg" alt="Image 5"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/6ACQ2019.jpg" alt="Image 6"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/6ACQ2019.jpg" alt="Image 6"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/7ACQ2019.jpg" alt="Image 7"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/7ACQ2019.jpg" alt="Image 7"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/8ACQ2019.jpg" alt="Image 8"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/8ACQ2019.jpg" alt="Image 8"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/9ACQ2019.jpg" alt="Image 9"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/9ACQ2019.jpg" alt="Image 9"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/10ACQ2019.jpg" alt="Image 10"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/10ACQ2019.jpg" alt="Image 10"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/11ACQ2019.jpg" alt="Image 11"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/11ACQ2019.jpg" alt="Image 11"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/12ACQ2019.jpg" alt="Image 12"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Acquaintance/12ACQ2019.jpg" alt="Image 12"></img>
                             </b-col>
                           </b-row>
                         </b-container>
@@ -79,44 +79,44 @@
                 <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
 
                   <!--Buwan Nang Wika Gallery-->
-                      <div class="gallery_cointainer">
+                      <div id="gallery_cointainer">
                         <b-container fluid class="p-5 bg-dark">
                           <b-row>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/1BNW2019.jpg" alt="Image 1"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/1BNW2019.jpg" alt="Image 1"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/2BNW2019.jpg" alt="Image 2"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/2BNW2019.jpg" alt="Image 2"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/3BNW2019.jpg" alt="Image 3"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/3BNW2019.jpg" alt="Image 3"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/4BNW2019.jpg" alt="Image 4"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/4BNW2019.jpg" alt="Image 4"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/5BNW2019.jpg" alt="Image 5"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/5BNW2019.jpg" alt="Image 5"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/6BNW2019.jpg" alt="Image 6"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/6BNW2019.jpg" alt="Image 6"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/7BNW2019.jpg" alt="Image 7"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/7BNW2019.jpg" alt="Image 7"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/8BNW2019.jpg" alt="Image 8"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/8BNW2019.jpg" alt="Image 8"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/9BNW2019.jpg" alt="Image 9"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/9BNW2019.jpg" alt="Image 9"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/10BNW2019.jpg" alt="Image 10"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/10BNW2019.jpg" alt="Image 10"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/11BNW2019.jpg" alt="Image 11"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/11BNW2019.jpg" alt="Image 11"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/BNW/12BNW2019.jpg" alt="Image 12"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/BNW/12BNW2019.jpg" alt="Image 12"></img>
                             </b-col>
                           </b-row>
                         </b-container>
@@ -138,44 +138,44 @@
                 <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
 
                   <!--Sportsfest Gallery-->
-                      <div class="gallery_cointainer">
+                      <div id="gallery_cointainer">
                         <b-container fluid class="p-5 bg-dark" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                           <b-row>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/1SF2019.jpg" alt="Image 1"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/1SF2019.jpg" alt="Image 1"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/2SF2019.jpg" alt="Image 2"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/2SF2019.jpg" alt="Image 2"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/3SF2019.jpg" alt="Image 3"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/3SF2019.jpg" alt="Image 3"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/4SF2019.jpg" alt="Image 4"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/4SF2019.jpg" alt="Image 4"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/5SF2019.jpg" alt="Image 5"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/5SF2019.jpg" alt="Image 5"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/6SF2019.jpg" alt="Image 6"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/6SF2019.jpg" alt="Image 6"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/7SF2019.jpg" alt="Image 7"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/7SF2019.jpg" alt="Image 7"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/8SF2019.jpg" alt="Image 8"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/8SF2019.jpg" alt="Image 8"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/9SF2019.jpg" alt="Image 9"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/9SF2019.jpg" alt="Image 9"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/10SF2019.jpg" alt="Image 10"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/10SF2019.jpg" alt="Image 10"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/11SF2019.jpg" alt="Image 11"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/11SF2019.jpg" alt="Image 11"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/12SF2019.jpg" alt="Image 12"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/Sportsfest/12SF2019.jpg" alt="Image 12"></img>
                             </b-col>
                           </b-row>
                         </b-container>
@@ -197,26 +197,26 @@
                 <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
 
                   <!--IT and Business fair Gallery-->
-                      <div class="gallery_cointainer">
+                      <div id="gallery_cointainer">
                         <b-container fluid class="p-5 bg-dark" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                           <b-row>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/1ITBF2019.jpg" alt="Image 1"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/1ITBF2019.jpg" alt="Image 1"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/2ITBF2019.jpg" alt="Image 2"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/2ITBF2019.jpg" alt="Image 2"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/3ITBF2019.jpg" alt="Image 3"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/3ITBF2019.jpg" alt="Image 3"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/4ITBF2019.jpg" alt="Image 4"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/4ITBF2019.jpg" alt="Image 4"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/5ITBF2019.jpg" alt="Image 5"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/5ITBF2019.jpg" alt="Image 5"></img>
                             </b-col>
                             <b-col>
-                              <img class="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/6ITBF2019.jpg" alt="Image 6"></img>
+                              <img id="event_img" thumbnail fluid src="../assets/images/Events/IT&Business fair/6ITBF2019.jpg" alt="Image 6"></img>
                             </b-col>
                           </b-row>
                         </b-container>
