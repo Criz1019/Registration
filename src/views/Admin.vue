@@ -16,6 +16,7 @@
     import VissionMission from "../components/OnlineRegVisionMission.vue";
     import Achievements from "../components/OnlineRegAchievements.vue";
     import Events from "../components/OnlineRegEvents.vue";
+    import Login from "../components/OnlineRegLogin.vue";
 
     import Axios from "axios";
     const baseUrl = "http://localhost/api/v1/";
