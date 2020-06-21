@@ -11,9 +11,6 @@ h3,h4,h5,h6{
 
 body {
 
-		/* background: white; */
-  	/* background: rgb(27, 86, 243); */
-		/* background: green; */
     font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -25,6 +22,7 @@ body {
     border: 1px solid #fff !important;
     color: #73879C
 }
+
 /* Header */
 
 #loginbtn{
@@ -279,6 +277,7 @@ float: right;
     counter-reset: step;
     margin: 100px 0px 50px 250px;
   }
+
   .progressbar li {
       list-style-type: none;
       width: 25%;

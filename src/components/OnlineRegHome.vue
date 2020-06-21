@@ -164,7 +164,7 @@
             return {
               // This data is for accordion(learn more)
               visible: false,
-              slide: true,
+              slide: 0,
               sliding: null,
             }
         },
