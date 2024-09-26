@@ -1,18 +1,24 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="main_container">
+      <Home />
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+    import Home from "../components/OnlineRegHome.vue";
+    import Axios from "axios";
+    const baseUrl = "http://localhost/api/v1/";
+    export default {
+        name: 'Admin',
+        components:{
+          Home,
+        },
+        data() {
+            return {};
+        },
+        mounted(){
 
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
+          }
+
+    }
 </script>
